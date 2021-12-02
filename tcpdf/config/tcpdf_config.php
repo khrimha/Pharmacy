@@ -122,7 +122,7 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG')) {
 	/**
 	 * document creator
 	 */
-	define ('PDF_CREATOR', 'Pharmacy Sys');
+	define ('PDF_CREATOR', 'Herbs & Jed Pharmacy');
 
 	/**
 	 * document author
@@ -137,7 +137,7 @@ if (!defined('K_TCPDF_EXTERNAL_CONFIG')) {
 	/**
 	 * header description string
 	 */
-	define ('PDF_HEADER_STRING', "Pharmacy Sysg");
+	define ('PDF_HEADER_STRING', "Herbs & Jed Pharmacyg");
 
 	/**
 	 * image logo

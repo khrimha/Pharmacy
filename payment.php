@@ -16,7 +16,8 @@ exit();
 <!DOCTYPE html>
 <html>
 <head>
-<title><?php echo $user;?> -  Pharmacy Sys</title>
+<title><?php echo $user;?> -  Herbs & Jed Pharmacy</title>
+<link rel="stylesheet" type="text/css" href="style/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style/mystyle.css">
 <link rel="stylesheet" href="style/style.css" type="text/css" media="screen" /> 
 <link rel="stylesheet" href="style/table.css" type="text/css" media="screen" /> 
@@ -50,7 +51,12 @@ exit();
 <body>
 <div id="content">
 <div id="header">
-<h1><a href="#"><img src="images/hd_logo.jpg"></a> Pharmacy Sys</h1></div>
+	<nav class="navbar navbar-light bg-light">
+		<a class="navbar-brand font-weight-bold" href="#">
+			<img src="images/hd_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+			Herbs & Jed Pharmacy 
+		</a>
+	</nav>
 <div id="left_column">
 <div id="button">
 		<ul>
@@ -151,7 +157,9 @@ type: "POST", url: "check.php", data: 'invoice_no='+invoice_no , success: functi
     </div>  
 </div>
 </div>
-<div id="footer" align="Center"> Pharmacy Sys 2013. Copyright All Rights Reserved</div>
+<div id="footer" class="text-center"> <p class="mt-5 mb-3 text-muted">&copy; Herbs & Jed Pharmacy. Copyright All Rights Reserved 2021</p></div>
+<script src="style\bootstrap\js\bootstrap.bundle.min.js">
+</script>
 </div>
 </body>
 </html>

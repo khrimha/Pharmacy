@@ -156,7 +156,7 @@ $stretching = 75;
 $pdf->setFontStretching($stretching);
 				$pdf->setFontSpacing($spacing);
 $titling= <<<EOD
-<strong> <font style="font-size:11">Pharmacy Sys</font> </strong> <br>
+<strong> <font style="font-size:11">Herbs & Jed Pharmacy</font> </strong> <br>
 Student Center Ground Floor,<br> P.O. Box Private Bag Kabarak, Kenya <br> Tel: +254 702 937 925 <br> E-mail: pharmacysys@yahoo.com <br>-----------------------------------------
 EOD;
 $header = array('Drug','Strength', 'Dose' ,'Quantity','Price', 'Total');

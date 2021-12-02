@@ -71,7 +71,7 @@ LOGIN;
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pharmacy System</title>
+<title>Herbs & Jed Pharmacytem</title>
 <link rel="stylesheet" type="text/css" href="style/mystyle_login.css">
 <link rel="stylesheet" type="text/css" href="style/bootstrap/css/bootstrap.min.css">
 
@@ -82,7 +82,7 @@ LOGIN;
 <!-- <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand font-weight-bold" href="#">
     <img src="images/hd_logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-    Pharmacy System 
+    Herbs & Jed Pharmacytem 
   </a>
 </nav> -->
 
@@ -113,7 +113,7 @@ LOGIN;
     </form>
     </section>
 </div>
-<div id="footer" class="text-center"> <p class="mt-5 mb-3 text-muted">&copy; Pharmacy Sys. Copyright All Rights Reserved 2021</p></div>
+<div id="footer" class="text-center"> <p class="mt-5 mb-3 text-muted">&copy; Herbs & Jed Pharmacy. Copyright All Rights Reserved 2021</p></div>
 <script src="style\bootstrap\js\bootstrap.bundle.min.js">
 </script> 
 </div>
